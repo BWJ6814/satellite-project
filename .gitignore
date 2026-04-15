@@ -10,3 +10,4 @@ python-ml-service/data/images/
 *.pth
 *.zip
 .DS_Store
+temp_test_env
