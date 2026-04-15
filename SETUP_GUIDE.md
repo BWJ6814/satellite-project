@@ -15,7 +15,7 @@
 git --version✅
 ```
 
-### 0-2. Docker Desktop 설치
+### 0-2. Docker Desktop 설치✅
 - 다운로드: https://www.docker.com/products/docker-desktop/
 - 설치 후 재부팅 → Docker Desktop 실행
 - 확인:
@@ -29,7 +29,7 @@ Docker version 29.3.1, build c2be9cc
 C:\Users\human-26>docker-compose --version
 Docker Compose version v5.1.1
 
-### 0-3. Ollama 설치 (LLM 로컬 실행용)
+### 0-3. Ollama 설치 (LLM 로컬 실행용)✅
 - 다운로드: https://ollama.com/download/windows
 - 설치 후 확인:
 ```cmd
@@ -40,12 +40,12 @@ ollama --version
 ollama pull gemma2
 ```
 
-### 0-4. Visual Studio Code (코드 에디터)
+### 0-4. Visual Studio Code (코드 에디터)✅
 - 다운로드: https://code.visualstudio.com/
 
 ---
 
-## 1단계: 프로젝트 폴더 생성 및 이동
+## 1단계: 프로젝트 폴더 생성 및 이동✅
 
 ```cmd
 cd C:\Users\human-26
@@ -57,7 +57,7 @@ cd satellite-project
 
 ---
 
-## 2단계: Python 가상환경 및 패키지 설치
+## 2단계: Python 가상환경 및 패키지 설치✅
 
 ```cmd
 cd C:\Users\human-26\satellite-project\python-ml-service
@@ -76,7 +76,7 @@ python -c "import langchain; print('LangChain OK')"
 
 ---
 
-## 3단계: Nest.js 백엔드 설치
+## 3단계: Nest.js 백엔드 설치✅
 
 ```cmd
 cd C:\Users\human-26\satellite-project\nest-backend
@@ -90,7 +90,7 @@ npx ts-node -e "console.log('TypeScript OK')"
 
 ---
 
-## 4단계: Docker로 DB 실행
+## 4단계: Docker로 DB 실행✅
 
 ```cmd
 cd C:\Users\human-26\satellite-project
@@ -105,7 +105,7 @@ docker ps
 
 ---
 
-## 5단계: 데이터 다운로드 (2주차)
+## 5단계: 데이터 다운로드 (2주차)✅
 
 ```cmd
 cd C:\Users\human-26\satellite-project\python-ml-service
