@@ -1,0 +1,12 @@
+node_modules/
+dist/
+venv/
+__pycache__/
+*.pyc
+.env
+uploads/
+saved_models/
+python-ml-service/data/images/
+*.pth
+*.zip
+.DS_Store
